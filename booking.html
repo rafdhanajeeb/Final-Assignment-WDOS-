@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Booking page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+    <body class="Booking">
+          <!--Navigation bar-->
+    <header>
+        <img class="logo" src="logo2.png" alt="logo">
+        <nav class="nav">
+            <!--ordered list-->
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="branches.html">Branches</a>
+                <!--unordered list-->
+                    <ul class="dropdown-content">
+                    <li><a href="branches.html#linkit">Galle</a></li>
+                    <li><a href="branches.html#linkit2">Puttalam</a></li>
+                    <li><a href="branches.html#linkit3">Colombo</a></li>
+                </ul>
+                </li>
+                <li><a href="restaurants.html">Dine in</a></li>
+                <li><a href="adventure.html">Explore</a></li>
+                <li><a href="booking.html">Book</a></li>
+            </ol>
+        </nav>
+    </header>
+    <h1>Hotel and Adventures Booking</h1>
+
+    <!-- Hotel Booking Form -->
+    <section class="form">
+        <h3>Book a Hotel Room</h3>
+        <form action=".php" method="post" target="_blank">
+            Hotel Name:
+          <br>  <select name="Hotel_Name" required>
+            <option value="" disabled selected>Select a Hotel</option>   
+            <option>The_RDn_Grand </option>
+                <option>RDn_Historic_Residence</option>
+                <option>RDn_Meow_Oasis</option>
+                <option>RDn_Resort_and_Spa</option>
+            </select><br>
+            First Name :
+            <input type="text" name="first_name" placeholder="First_name" required ><br>
+            Last Name :
+            <input type="text" name="last_name" placeholder="Last_Name" required><br>
+            Phone number:
+            <input type="text" name="phone_number" maxlength="10" placeholder="Phone_Number"  required><br>
+            Address:
+            <input type="text" name="Address" placeholder="Address"  required><br>
+            Check-in Date:
+            <input type="date" name="check_in_date"  required><br>
+            Check-out Date:
+            <input type="date"  name="check_out_date"  required><br>
+           Requests 
+           <textarea name="comments" rows="4" cols="40" placeholder="Type Something" ></textarea><br>
+           <input type="checkbox">"I confirm that all the provided information is accurate and complete to the best of my knowledge and I am confident in the details provided."
+            <input type="submit" value="confirm" ><input type="submit" value="Reset">
+         </form>
+    </section>
+
+    <!-- Adventures Booking Form -->
+    <section class="form">
+        <h3>Book an Adventure</h3>
+        <form action=".php" method="post" target="_blank">
+            Adventure Name:
+            <input type="text" name="adventure_name" required><br>
+            Date:
+            <input type="date" name="adventure_date" required><br>
+            Time:
+            <input type="time" name="time" required><br>
+            <input type="submit" value="confirm">
+        </form>
+    </section>
+     <!--Footer-->
+     <Footer>
+        <div class="footercontainer">
+              <div class="footerbottom">
+                  <p>&copy;Copyright 2023;Designed by<span class="designer"> Rafdha Najeeb</span>
+                  </p>
+              </div>
+          </div>
+          </footer>
+    </body>
+</html>

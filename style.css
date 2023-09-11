@@ -1,0 +1,377 @@
+*{box-sizing: border-box;}
+
+.bd{background-image: url('bk.jpeg'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+.rest{background-image: url('rstbk.jpeg'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+.advbg{background-image: url('abc.jpeg'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+.branch-bg{background-image: url('Desktop\ -\ 14.png'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+
+
+
+li,a {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3F2305;
+    text-decoration: none; 
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    }
+
+
+.nav{
+    justify-content: flex-end;
+    background-color: transparent;
+}
+
+
+
+
+.logo{
+    width: 250px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.logo:hover {
+        transform: scale(1.1);}
+
+.nav ol{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav li{
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #3F2305;
+}
+
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #3F2305;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content li{
+    display: block;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a{
+    color: antiquewhite;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: #CA965C;
+}
+
+
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+
+.footerbottom{
+    padding: 10px;
+    text-align: center;
+}
+.footerbottom p{
+    color: black;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+.RDn{
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    color: #3F2305;
+}
+
+.res{
+    text-align: center;
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+.desc{
+        justify-content:flex-start;
+    font-size: 20px; 
+    }
+        
+.image-container{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+    
+.description{
+    flex: 1;
+    padding-left: 20px;
+}
+
+.intr{
+    font-size: 18px;
+    font-style: oblique;
+}
+
+.custom-image {
+    width: 1500px;
+    height: 900px;
+}
+
+.txt{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: antiquewhite;
+    padding: 10px;
+    font-size: 100px;
+    opacity: 0.5; 
+    font-style: italic;
+}
+
+.Multi-Cuisine{
+    font-size: 18px;
+font-style: oblique;}
+
+h2{
+    font-family: Playfair_Display;
+  letter-spacing: 5px;
+}
+
+.Poolside{
+    font-size: 18px;
+    font-style: oblique;
+}
+.cafe{
+    font-size: 18px;
+    font-style: oblique;
+    
+}
+.multi{
+    font-size: 25px;
+    opacity: 0.5;
+}
+
+
+.pool{
+    font-size: 25px;
+    opacity: 0.5;
+}
+
+.cafee{
+    font-size: 25px;
+    opacity: 0.5;
+}
+.image-container1{
+    text-align: right;
+}
+
+.branch-content {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: flex-start;
+}
+
+.branch-images {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.branch-map {
+    flex: 1; 
+}
+
+
+  .travel  {
+    font-size: 25px;
+    opacity: 0.5;}
+
+.destination {
+    font-size: 18px;
+    font-style: oblique;
+}
+
+.br-des{
+    font-style: oblique;
+    font-size: 18px;
+}
+.tfoot{
+    font-style: oblique;
+    font-size: 18px;
+}
+.button {border-radius: 50%;}
+.button {
+    background-color:#DAC0A3;
+    border: none;
+    color:black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    }
+
+.Business{
+    font-style: italic;
+}
+.form {
+    background-color: #CA965C;
+    display: inline-block;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    max-width: 400px;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: beige;
+    color: #3F2305;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.Booking{
+    background-image: url('booking.jpeg'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    text-align: center;
+    margin: 50px;
+}
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        width: 150px; /* Adjust the size as needed */
+    }
+
+    .nav {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .nav li {
+        margin: 0 10px;
+    }
+
+    .dropdown-content {
+        background-color: #3F2305;
+        min-width: 120px;
+    }
+
+    .dropdown-content a {
+        color: antiquewhite;
+        padding: 8px;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #CA965C;
+    }
+
+    .footercontainer {
+        padding: 50px 15px;
+    }
+
+    .RDn {
+        font-size: 40px;
+    }
+
+    .res {
+        font-size: 20px;
+    }
+
+    .custom-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .txt {
+        font-size: 60px;
+    }
+
+    .Multi-Cuisine,
+    .Poolside,
+    .cafe,
+    .multi,
+    .pool,
+    .cafee {
+        font-size: 16px;
+    }
+
+    .branch-content {
+        flex-direction: column;
+    }
+
+    .branch-images,
+    .branch-map {
+        margin-right: 0;
+    }
+
+    .travel,
+    .destination,
+    .br-des,
+    .tfoot {
+        font-size: 16px;
+    }
+}
